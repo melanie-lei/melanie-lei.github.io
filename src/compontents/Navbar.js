@@ -54,6 +54,11 @@ function Navbar() {
                 Blog
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
+                Another page
+              </Link>
+            </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
         </div>
