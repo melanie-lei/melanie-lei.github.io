@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/melanie-lei.github.io/static/css/main.a71b177b.css",
-    "main.js": "/melanie-lei.github.io/static/js/main.0080a92d.js",
-    "static/media/img-2.jpg": "/melanie-lei.github.io/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
-    "static/media/img-1.jpg": "/melanie-lei.github.io/static/media/img-1.53f4843759ebec256cb9.jpg",
-    "static/media/img-8.jpg": "/melanie-lei.github.io/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
-    "index.html": "/melanie-lei.github.io/index.html",
-    "main.a71b177b.css.map": "/melanie-lei.github.io/static/css/main.a71b177b.css.map",
-    "main.0080a92d.js.map": "/melanie-lei.github.io/static/js/main.0080a92d.js.map"
+    "main.css": "/static/css/main.b91e7c83.css",
+    "main.js": "/static/js/main.0080a92d.js",
+    "static/media/img-2.jpg": "/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/img-1.jpg": "/static/media/img-1.53f4843759ebec256cb9.jpg",
+    "static/media/img-8.jpg": "/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "index.html": "/index.html",
+    "main.b91e7c83.css.map": "/static/css/main.b91e7c83.css.map",
+    "main.0080a92d.js.map": "/static/js/main.0080a92d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71b177b.css",
+    "static/css/main.b91e7c83.css",
     "static/js/main.0080a92d.js"
   ]
 }
