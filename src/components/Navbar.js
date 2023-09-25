@@ -1,33 +1,33 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import { Button } from './Button';
+import { Link } from 'react-router-dom'
+import './Navbar.css'
+import { Button } from './Button'
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const [click, setClick] = useState(false)
+  const [button, setButton] = useState(true)
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false)
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
+      setButton(false)
     } else {
-      setButton(true);
+      setButton(true)
     }
   };
 
   useEffect(() => {
-    showButton();
-  }, []);
+    showButton()
+  }, [])
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener('resize', showButton)
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to="/" className='navbar-logo'>
+          <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
             ML <i className="fas fa-house" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -45,13 +45,18 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/projects]' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
                 Blog
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/contact' className='nav-links-mobile' onClick={closeMobileMenu}>
+                CONTACT
               </Link>
             </li>
           </ul>
