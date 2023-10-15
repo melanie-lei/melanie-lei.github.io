@@ -1,0 +1,41 @@
+.blog-title {
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.blog-text {
+  align-items: center;
+  margin-right: 10%;
+  text-indent: 5%;
+}
+
+.blog-article {
+  display: flex;
+  align-items: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.bereal-item,
+.blog-item {
+  flex: 1;
+  display: inline-block;
+  align-items: center;
+}
+
+.bereal {
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 960px) {
+  .blog-article {
+    display: block;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+}

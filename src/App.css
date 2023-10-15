@@ -6,39 +6,50 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.about,
+.projects,
+.contact,
+.blog {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.services {
+.about {
   background-image: url('C:\Users\lei31\melanie-lei-web\public\images\img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
-.products {
+.projects {
   background-image: url('C:\Users\lei31\melanie-lei-web\public\images\img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
-.sign-up {
+.contact {
   background-image: url('C:\Users\lei31\melanie-lei-web\public\images\img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.blog {
+  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\beachstairs.png');
+}
+
+.page-title {
   color: #fff;
   font-size: 100px;
+  text-shadow: 2px 2px black;
+}
+
+.page-description {
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px black;
 }
