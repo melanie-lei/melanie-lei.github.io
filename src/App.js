@@ -7,6 +7,8 @@ import About from './components/pages/About'
 import Blog from './components/pages/Blog'
 import Projects from './components/pages/Projects'
 import Contact from './components/pages/Contact'
+import { Link } from 'react-router-dom';
+
 
 
 function App() {

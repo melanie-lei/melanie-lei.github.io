@@ -7,7 +7,10 @@ function Navbar() {
   const [click, setClick] = useState(false)
   const [button, setButton] = useState(true)
   const handleClick = () => setClick(!click)
-  const closeMobileMenu = () => setClick(false)
+  function closeMobileMenu() {
+    setClick(false)
+    window.scrollTo(0, 0);
+  }
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -21,6 +24,8 @@ function Navbar() {
     showButton()
   }, [])
 
+
+
   window.addEventListener('resize', showButton)
 
   return (
@@ -28,7 +33,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-            ML <i className="fas fa-house" />
+            ML
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -60,7 +65,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
+          {button && <Button buttonStyle='btn--outline' >CONTACT</Button>}
         </div>
       </nav>
     </>

@@ -1,0 +1,37 @@
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.form-item,
+.form-item-button,
+.form-item-message {
+  display: flex;
+  flex: 1;
+  margin-bottom: 2%;
+  width: auto;
+}
+
+.form-item-message {
+  width: 600px;
+}
+
+.form-item-button {
+  padding: 2%;
+}
+
+@media screen and (max-width: 960px) {
+  .form-item-message {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .form-item-message {
+    width: 300px;
+  }
+}

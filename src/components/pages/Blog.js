@@ -1,6 +1,7 @@
 import React from "react"
 import '../../App.css'
 import './Blog.css'
+import Footer from "../Footer"
 
 export default function Blog() {
   return (<>
@@ -43,6 +44,7 @@ export default function Blog() {
       </div>
     </div>
 
+    <Footer />
   </>
   )
 }

@@ -24,15 +24,15 @@
 }
 
 .about {
-  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\img-2.jpg');
+  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\rosegarden.png');
 }
 
 .projects {
-  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\img-1.jpg');
+  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\wreckbeach.png');
 }
 
 .contact {
-  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\img-8.jpg');
+  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\firepits.png');
 }
 
 .blog {
@@ -47,8 +47,11 @@
 
 .page-description {
   align-items: center;
+  text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 20px;
   color: #fff;
   text-shadow: 2px 2px black;

@@ -8,6 +8,12 @@ const SIZES = ['btn--medium', 'btn--large'];
 
 export const Button =
   ({ children, type, onClick, buttonStyle, buttonSize }) => {
+
+    function close() {
+      window.scrollTo(0, 0)
+    }
+
+
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
@@ -15,7 +21,7 @@ export const Button =
       <Link to='/contact' className='btn-mobile'>
         <button
           className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-          onClick={onclick}
+          onClick={close}
           type={type}
         >
           {children}

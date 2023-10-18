@@ -5,16 +5,15 @@ import '../App.css'
 
 
 function HeroSection() {
+
   return (
     <div className='hero-container'>
-
       <h1>Melanie Lei</h1>
-      <p>Get to know me!</p>
+      <p className='page-description'>Hi! Welcome to my website (obligatory as a computer science major). Feel free to explore around! This site will be updated as I complete more projects and/or write more mini blog articles. </p>
       <div className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline'
-          buttonSize='btn--large'>GET STARTED</Button>
-        <Button className='btns' buttonStyle='btn--outline'
-          buttonSize='btn--large'>WATCH TRAILER</Button>
+          buttonSize='btn--large'
+        >Contact</Button>
       </div>
     </div>
   )
