@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dab3dd7.css",
+    "main.css": "/static/css/main.918f9f03.css",
     "main.js": "/static/js/main.c81e9619.js",
     "static/media/van-night.jpg": "/static/media/van-night.03792ecbfdcf4bb234bf.jpg",
     "static/media/beachstairs.png": "/static/media/beachstairs.723f875953d50e7fa73b.png",
@@ -8,11 +8,11 @@
     "static/media/wreckbeach.png": "/static/media/wreckbeach.c5327bd3c0d696c9c25b.png",
     "static/media/firepits.png": "/static/media/firepits.fc0eaf4c069957c14c58.png",
     "index.html": "/index.html",
-    "main.7dab3dd7.css.map": "/static/css/main.7dab3dd7.css.map",
+    "main.918f9f03.css.map": "/static/css/main.918f9f03.css.map",
     "main.c81e9619.js.map": "/static/js/main.c81e9619.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dab3dd7.css",
+    "static/css/main.918f9f03.css",
     "static/js/main.c81e9619.js"
   ]
 }
