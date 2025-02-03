@@ -19,10 +19,10 @@ function Cards() {
               path='https://github.com/sherwinchiu/tuesday' />
           </ul>
           <ul className='cards__items'>
-            <CardItem src='/images/standingshadow.jpg'
-              text='Coming Soon...'
+            <CardItem src='/images/spookyspider.png'
+              text='Spider Cave Game'
               label='Game'
-              path='/' />
+              path='https://rn-games.itch.io/spider-cave-game-demo' />
             <CardItem src='/images/crypticlogs.jpg'
               text='Coming Soon...'
               label='Game'
