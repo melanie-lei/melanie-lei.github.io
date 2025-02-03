@@ -24,19 +24,19 @@
 }
 
 .about {
-  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\rosegarden.png');
+  background-image: url('../public/images/rosegarden.png');
 }
 
 .projects {
-  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\wreckbeach.png');
+  background-image: url('../public/images/wreckbeach.png');
 }
 
 .contact {
-  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\firepits.png');
+  background-image: url('../public/images/firepits.png');
 }
 
 .blog {
-  background-image: url('C:\Users\lei31\melanie-lei-web\public\images\beachstairs.png');
+  background-image: url('../public/images/beachstairs.png');
 }
 
 .page-title {
